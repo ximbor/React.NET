@@ -40,14 +40,14 @@ Start by creating a new ASP.NET Core MVC project:
 2. Ensure ".NET Framework 4.6" is selected in the dropdown list at the top
 3. Go to Templates → Visual C# → Web and select the "ASP.NET Core Web Application (.NET Framework)" template. Call it "ReactDemo"
    [<img src="/img/tutorial/newproject_core_600.png" alt="Screenshot: New Project" width="600" />](/img/tutorial/newproject_core.png)
-3. In the "New ASP.NET Core Web Application" dialog, select the Web Application (Model-View-Controller) template. Also, click "Change Authentication" and select "No Authentication"
+3. In the "New ASP.NET Core Web Application" dialog, select the Web Application (or Web Application Model-View-Controller in case of Visual Studio 2017) template. Also, click "Change Authentication" and select "No Authentication"
    [<img src="/img/tutorial/new_webapp_600.png" alt="Screenshot: New ASP.NET Core MVC Project dialog" width="600" />](/img/tutorial/new_webapp.png)
 
 Note: We are using .NET Framework in this tutorial, but you can instead use .NET Core if you want to be able to run your site on Linux or Mac OS. Currently .NET Core is missing some of the functionality provided by .NET Framework, so it is recommended to use .NET Framework unless you have a reason to use .NET Core specifically (eg. cross-platform support).
 
 ### Remove example content
 
-The default Web Application (Model-View-Controller) template includes some example content that we don't need. Delete the following files:
+The default Web Application template includes some example content that we don't need. Delete the following files:
 
  - `Controllers\HomeController.cs`
  - `Views\Home` and `Views\Shared` folders
